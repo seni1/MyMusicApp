@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tint_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.mymusicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/jazz"
+        style="@style/GenreStyle"
+        android:background="@color/category_jazz"
+        android:text="Jazz"/>
+
+    <TextView
+        android:id="@+id/lounge"
+        style="@style/GenreStyle"
+        android:background="@color/category_lounge"
+        android:text="Lounge" />
+
+    <TextView
+        android:id="@+id/chillout"
+        style="@style/GenreStyle"
+        android:background="@color/category_chillout"
+        android:text="Chillout" />
+
+    <TextView
+        android:id="@+id/bossa_nova"
+        style="@style/GenreStyle"
+        android:background="@color/category_bossa_nova"
+        android:text="Bossa Nova" />
+
+    <TextView
+        android:id="@+id/cafe_paris"
+        style="@style/GenreStyle"
+        android:background="@color/category_cafe_paris"
+        android:text="Cafe´de Paris" />
+
+    <TextView
+        android:id="@+id/solo_piano"
+        style="@style/GenreStyle"
+        android:background="@color/category_solo_piano"
+        android:text="Solo Piano " />
+
+</LinearLayout>
