@@ -17,24 +17,16 @@ public class ChilloutActivity extends AppCompatActivity {
         ArrayList<Genre> genres = new ArrayList<>();
 
         //genres.add(0, "Summer In New York", "Michael Franks")
-        genres.add(new Genre("\"Don't Wake Me Up\"                PLAY", "DJ Shah"));
-        genres.add(new Genre("\"Vanilla\"                             PLAY", "tyDi feat. Tania Zygar"));
-        genres.add(new Genre("\"Why Don't We\"                      PLAY", "Mint Julep"));
-        genres.add(new Genre("\"Attention\"                        PLAY", "Tenishia"));
-        genres.add(new Genre("\"One More Day\"                    PLAY", "Sunlounger"));
-        genres.add(new Genre("\"Time\"                              PLAY", "Hans Zimmer"));
-        genres.add(new Genre("\"Soul Within Soul\"                    PLAY", "Anthya"));
-        genres.add(new Genre("\"For A Lifetime\"                    PLAY", "Ascension"));
-        genres.add(new Genre("\"No Pain\"                                    PLAY", "Manu Zain ft. Patrick Baker"));
-        genres.add(new Genre("\"Hope never dies\"                       PLAY", "Solarsoul feat. Kristin Amarie"));
-
-        //Adding genres to ArrayList to display for cross-navigation
-        genres.add(new Genre("\"JAZZ GENRE\"                         FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"LOUNGE GENRE\"                       FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"CHILLOUT GENRE\"                     FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"BOSSA NOVA GENRE\"                   FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"CAFEE´DE PARIS GENRE\"               FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"SOLO PIANO GENRE\"                   FOLLOW", "click to navigate"));
+        genres.add(new Genre(getString(R.string.dont_wake), getString(R.string.dj_shah)));
+        genres.add(new Genre(getString(R.string.vanilla), getString(R.string.tania_zygar)));
+        genres.add(new Genre(getString(R.string.why_dont_we), getString(R.string.mint_julep)));
+        genres.add(new Genre(getString(R.string.attention), getString(R.string.tenishia)));
+        genres.add(new Genre(getString(R.string.one_more_day), getString(R.string.sunlounger)));
+        genres.add(new Genre(getString(R.string.day), getString(R.string.zimmer)));
+        genres.add(new Genre(getString(R.string.soul_within_soul), getString(R.string.anthya)));
+        genres.add(new Genre(getString(R.string.lifetime), getString(R.string.ascension)));
+        genres.add(new Genre(getString(R.string.no_pain), getString(R.string.patrick_backer)));
+        genres.add(new Genre(getString(R.string.hope_never_dies), getString(R.string.solarsoul)));
 
         //Create a {@link ArrayAdapter}, whose data source is a list of Strings. The
         //adapter knows how to create layouts for each item in the list, using the

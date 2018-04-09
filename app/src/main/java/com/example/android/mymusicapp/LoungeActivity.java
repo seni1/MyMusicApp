@@ -17,24 +17,16 @@ public class LoungeActivity extends AppCompatActivity {
         ArrayList<Genre> genres = new ArrayList<>();
 
         //genres.add(0, "Summer In New York", "Michael Franks")
-        genres.add(new Genre("\"Like Love\"                    PLAY", "Sly"));
-        genres.add(new Genre("\"Drink To Forget\"              PLAY", "Orjan Nilsen"));
-        genres.add(new Genre("\"Minus Blue\"                   PLAY", "Too Far To Speak"));
-        genres.add(new Genre("\"Fever\"                           PLAY", "A Guy Called Gerald"));
-        genres.add(new Genre("\"Casa Del Como\"                PLAY", "In Credo"));
-        genres.add(new Genre("\"Habitat\"                         PLAY", "Krystian Shek, Surya"));
-        genres.add(new Genre("\"DJ Maretimo\"                     PLAY", "Cosmopolitan Cocktail"));
-        genres.add(new Genre("\"Can I Get A Witness\"          PLAY", "Sofa Surfers"));
-        genres.add(new Genre("\"Without You\"                  PLAY", "Gary B"));
-        genres.add(new Genre("\"Under the Water\"              PLAY", "Left"));
-
-        //Adding genres to ArrayList to display for cross-navigation
-        genres.add(new Genre("\"JAZZ GENRE\"                         FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"LOUNGE GENRE\"                       FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"CHILLOUT GENRE\"                     FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"BOSSA NOVA GENRE\"                   FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"CAFEE´DE PARIS GENRE\"               FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"SOLO PIANO GENRE\"                   FOLLOW", "click to navigate"));
+        genres.add(new Genre(getString(R.string.like_love), getString(R.string.sly)));
+        genres.add(new Genre(getString(R.string.drink_to_forget), getString(R.string.orjan)));
+        genres.add(new Genre(getString(R.string.minus_blue), getString(R.string.too_far)));
+        genres.add(new Genre(getString(R.string.fever), getString(R.string.gerald)));
+        genres.add(new Genre(getString(R.string.casa_del_como), getString(R.string.in_credo)));
+        genres.add(new Genre(getString(R.string.habitat), getString(R.string.surya)));
+        genres.add(new Genre(getString(R.string.dj_maretimo), getString(R.string.cosmopolitan)));
+        genres.add(new Genre(getString(R.string.get_a_witness), getString(R.string.sofa_surfers)));
+        genres.add(new Genre(getString(R.string.without_you), getString(R.string.gary_b)));
+        genres.add(new Genre(getString(R.string.under_the_water), getString(R.string.left)));
 
         //Create a {@link ArrayAdapter}, whose data source is a list of Strings. The
         //adapter knows how to create layouts for each item in the list, using the

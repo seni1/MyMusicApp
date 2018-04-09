@@ -18,25 +18,16 @@ public class JazzActivity extends AppCompatActivity {
 
         //genres.add(0, "Summer In New York", "Michael Franks")
 //genres.add(0, "Summer In New York", "Michael Franks")
-        genres.add(new Genre("\"Rain Coat\"                    PLAY", "Kelly Sweet"));
-        genres.add(new Genre("\"Let's Get It On\"              PLAY", "Audrey Martells"));
-        genres.add(new Genre("\"Walk Through the Fire\"        PLAY", "Eric Marienthal"));
-        genres.add(new Genre("\"I Really Like\"                PLAY", "The Jazzmasters"));
-        genres.add(new Genre("\"Got To Let My Feelings Show\"      PLAY", "Bluey"));
-        genres.add(new Genre("\"Jacky's Place\"                    PLAY", "Herb Alpert feat. Lani Hall"));
-        genres.add(new Genre("\"Save Your Love For Me\"        PLAY", "Joe Sample"));
-        genres.add(new Genre("\"Living Inside Your Love\"      PLAY", "Earl Klugh"));
-        genres.add(new Genre("\"Anywhere You Wanna Go\"        PLAY", "Cagle & Nash"));
-        genres.add(new Genre("\"Let's Stay Together\"          PLAY", "Seal"));
-
-        //Adding genres to ArrayList to display for cross-navigation
-        genres.add(new Genre("\"JAZZ GENRE\"                         FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"LOUNGE GENRE\"                       FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"CHILLOUT GENRE\"                     FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"BOSSA NOVA GENRE\"                   FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"CAFEE´DE PARIS GENRE\"               FOLLOW", "click to navigate"));
-        genres.add(new Genre("\"SOLO PIANO GENRE\"                   FOLLOW", "click to navigate"));
-
+        genres.add(new Genre(getString(R.string.rain_coat), getString(R.string.kelly_sweet)));
+        genres.add(new Genre(getString(R.string.get_it_on), getString(R.string.audrey)));
+        genres.add(new Genre(getString(R.string.walk_through), getString(R.string.marienthal)));
+        genres.add(new Genre(getString(R.string.really_like), getString(R.string.jazzmaster)));
+        genres.add(new Genre(getString(R.string.got_to), getString(R.string.bluey)));
+        genres.add(new Genre(getString(R.string.jackys_place), getString(R.string.herb_alpert)));
+        genres.add(new Genre(getString(R.string.save_your_love), getString(R.string.joe_sample)));
+        genres.add(new Genre(getString(R.string.living_inside), getString(R.string.earl_klugh)));
+        genres.add(new Genre(getString(R.string.anywhere), getString(R.string.cagle_nash)));
+        genres.add(new Genre(getString(R.string.lets_stay), getString(R.string.seal)));
 
         //Create a {@link ArrayAdapter}, whose data source is a list of Strings. The
         //adapter knows how to create layouts for each item in the list, using the

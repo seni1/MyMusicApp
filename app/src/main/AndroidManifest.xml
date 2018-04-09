@@ -19,22 +19,28 @@
 
         <activity
             android:name=".JazzActivity"
-            android:label="Jazz"/>
+            android:label="Jazz"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".LoungeActivity"
-            android:label="Lounge"/>
+            android:label="Lounge"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".ChilloutActivity"
-            android:label="Chillout"/>
+            android:label="Chillout"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".BossaActivity"
-            android:label="Bossa Nova"/>
+            android:label="Bossa Nova"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".CafeActivity"
-            android:label="Cafe´de Paris"/>
+            android:label="Cafe´de Paris"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".PianoActivity"
-            android:label="Solo Piano">
+            android:label="Solo Piano"
+            android:parentActivityName=".MainActivity">
 
         </activity>
 
